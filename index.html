@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mail seller</title>
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="header">
+                <h1><i class="fa fa-envelope" aria-hidden="true"></i> Mail seller</h1>
+            </div>
+
+            <div class="content">
+                <form action="mailer.php" method="POST" enctype="multipart/form-data">
+
+                    <div class="row justify-content-center">
+                        <div class="form-container col-md-3">
+                            <div class="form-group">
+                                <label class="custom-file">
+                                    <input type="file" id="email" name="email" required>
+                                    <small class="form-text text-muted">Enter you'r emails in ".txt" formats.</small>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-container col-md-3">
+                            <div class="form-group align-middle">
+                                <label class="custom-file">
+                                    <input type="file" id="template" name="template" required>
+                                    <small class="form-text text-muted">Enter you'r "html" template.</small>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 section-button">
+                            <button type="reset" class="btn btn-danger"><i class="fa fa-repeat" aria-hidden="true"></i>
+                                Reset
+                            </button>
+                            <button type="submit" class="btn btn-success"><i class="fa fa-paper-plane"
+                                                                             aria-hidden="true"></i> Run
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+</script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+</html>

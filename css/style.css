@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section-button {
+    text-align: center;
+}
+
+.form-group{
+    max-width:100%;
+}
+
+.form-container{
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed #292b2c;
+    border-radius: 10px;
+}
+
+.form-container input{
+    max-width: 100%;
+}
